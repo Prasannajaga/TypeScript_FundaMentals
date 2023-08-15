@@ -4,7 +4,7 @@
 type DayOfTheWeek = "sunday" | "monday" | "tuesday" | "wednesday" | 
                     "thursday" | "friday" | "saturday";
 
-// Index Signatures 
+// Index Signatures  
 // type Days = { [DAY in DayOfTheWeek]: string };
 
 //  using Record<key , value>
