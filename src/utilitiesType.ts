@@ -65,3 +65,11 @@ export type GameModel =  {
 
   console.log(contructorParameters);
   
+
+  //ReturnType<function>
+
+  function returnThis() : string {
+    return "";
+  } 
+
+  const returnTypes : ReturnType<typeof returnThis> = "Return type string is accepted";
