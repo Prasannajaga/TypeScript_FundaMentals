@@ -18,7 +18,7 @@ export type GameModel =  {
             platform : "PC",
             release_date : '2013',
             publisher : "Unreal"
-        }
+        },
   }
 
 
@@ -39,8 +39,8 @@ export type GameModel =  {
   // Exclude<unionTypes,Keyswantedremove>
  
   type myUnionType = "🍇" | "🍎" | "🫐" | "🍋"
-
-  const noLemonPlease : Exclude<myUnionType, "🍋" | ""> = "🍇";
+   
+  const noLemonPlease : Exclude<myUnionType, "🍋" | "🫐"> = "🍎";
 
 
   // Extract<unionTypes,KeysYouWanted>
@@ -68,8 +68,8 @@ export type GameModel =  {
 
   //ReturnType<function>
 
-  function returnThis() : string {
-    return "";
+  function returnThis() : number | string  {
+    return 0;
   } 
 
-  const returnTypes : ReturnType<typeof returnThis> = "Return type string is accepted";
+  const returnTypes : ReturnType<typeof returnThis> = 90 || "prasanna is here";
