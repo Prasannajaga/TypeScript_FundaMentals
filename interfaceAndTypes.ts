@@ -5,9 +5,7 @@ interface globalObject{
     date : string | Date,
     citizen :  string,
 }
-
-
-
+ 
 interface global<T = string>{
     [some : string] : "hello-world"
 }
