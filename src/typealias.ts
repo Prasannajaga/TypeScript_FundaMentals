@@ -1,5 +1,7 @@
 // union types
 
+import { GameModel } from "./utilitiesType";
+
 type family = grandparents & parents & childrens;
 
 
@@ -10,6 +12,11 @@ type family = grandparents & parents & childrens;
 type partial<T> = {
     [k in keyof T] ?: T[k]
 }
+
+export type prettify<T> = {
+    [K in keyof T] : T[K]
+}
+ 
 
 
 type grandparents = {

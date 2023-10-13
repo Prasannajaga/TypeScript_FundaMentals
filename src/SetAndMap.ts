@@ -7,10 +7,10 @@
 //     'English',
 //     'Tamil',
 //   ]
+
 //   const languageSet = new Set(languages);
 //   console.log(languageSet) // Set(4) {"English", "Finnish", "French", "Spanish"}
 //   console.log(languageSet.size) // 4
-  
 //   const counts : {lang ?:string , count : number }[]= []
   
 //   for (const langset of languageSet) {
@@ -18,7 +18,7 @@
 //     console.log(filteredLang) // ["English", "English", "English"]
 //     counts.push({ lang: langset, count: filteredLang.length })
 //   }
-//   console.log(counts)
+
 
 let data = [
     ["prasanna" , "jagadesh"],
